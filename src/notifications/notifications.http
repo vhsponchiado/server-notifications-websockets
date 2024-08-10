@@ -1,0 +1,48 @@
+### Notify 1
+
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "author": "Beatriz Souza",
+  "message": "Não esqueça da reunião amanhã às 9h.", 
+  "figure": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "timestamp": "2021-01-01T00:00:00.000Z",
+  "type": "warning"
+}
+
+### Notify 2
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "author": "Carlos Mendes",
+  "message": "Seu relatório foi aprovado, parabéns!", 
+  "figure": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "timestamp": "2021-01-01T00:00:00.000Z",
+  "type": "success"
+}
+
+### Notify 3
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "author": "Fernanda Lima",
+  "message": "Preciso falar com você urgentemente.", 
+  "figure": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "timestamp": "2021-01-01T00:00:00.000Z",
+  "type": "error"
+}
+
+### Notify 4
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "author": "Ana Silva",
+  "message": "Encontro você no café às 15h.", 
+  "figure": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "timestamp": "2021-01-01T00:00:00.000Z",
+  "type": "info"
+}
